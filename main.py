@@ -84,7 +84,7 @@ def main():
     #password = input("Enter password:")
 
     user = 'root'
-    password = "f6cb77a13ad6491e"
+    password = input("Enter Password: ")
 
     # connect to the database
     connection1 = TelevisionApp(user, password)
